@@ -1,11 +1,15 @@
 import React from 'react';
 import Greet from './components/Greet';
+import Welcome from './components/Welcome';
+import Hello from './components/Hello';
 
 function App() {
   return (
-      <div>
-        <Greet />
-      </div>
+    <div>
+      {/* <Greet />
+      <Welcome /> */}
+      <Hello />
+    </div>
   );
 }
 
