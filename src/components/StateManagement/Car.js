@@ -12,7 +12,7 @@ const Car = () => {
   return (
     <div>
       {car.map((element) => (
-        <CarIndivisual name={element.name} />
+        <CarIndivisual key={element.carId} name={element.name} />
       ))}
     </div>
   );
